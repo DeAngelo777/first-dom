@@ -69,7 +69,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Laimonas: [Github](https://github.com/deangelo777)
 
 ## ⚠️ License
 
