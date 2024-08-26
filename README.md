@@ -7,7 +7,7 @@
 
 # DOM
 
-_website DOM project_
+_website design project_
 
 <br>
 
@@ -15,16 +15,17 @@ _website DOM project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://deangelo777.github.io/first-dom
+Site published at: https://deangelo777.github.io/51-grupe-dom
+
+Design: _none_
 
 ## 🎯 Project features/goals
 
 - Github pages
 - icons (FontAwesome, ReactIcons)
-- CSS file
 - Favicon
 - responsive design
-- DOM
+- DOM (document object model)
 
 ## 🧰 Getting Started
 
@@ -48,7 +49,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/front-end-by-rimantas/51-grupe-easy-money.git
+   git clone https://github.com/front-end-by-rimantas/51-grupe-easy-dom.git
    ```
 2. Install NPM packages
    ```sh
@@ -69,7 +70,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Laimonas: [Github](https://github.com/deangelo777)
 
 ## ⚠️ License
 

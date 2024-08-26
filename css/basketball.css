@@ -1,0 +1,15 @@
+.calc {
+  display: flex;
+  gap: 1rem;
+}
+.calc > button {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.calc > div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 5rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}

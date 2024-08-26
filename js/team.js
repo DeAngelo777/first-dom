@@ -1,38 +1,37 @@
-const teamSectionDom = document.getElementById('team');
+import { header } from "./header.js";
+header('team');
 
-const teamMembers = ['Jonas', "Marytė", "Aldona", "Juozapas"];
+const teamSectionDOM = document.getElementById('team');
+const teamMembers = ['Jonas', 'Marytė', 'Petras', 'Ona', 'Arvyda', 'Aldona', 'Zose', 'Juozapas', 'Juozas', 'Antanas', 'Aloyzas', 'Martynas', 'Anastasija'];
 
 let membersHTML = '';
-
-for (const name of teamMembers){
+for (const name of teamMembers) {
     membersHTML += `<li class="member">${name}</li>`;
 }
 
-
-teamSectionDom.innerHTML = `<ul>${membersHTML}</ul>`;
-
+teamSectionDOM.innerHTML = `<ul>${membersHTML}</ul>`;
 
 const membersListDOM = document.getElementsByClassName('member');
-console.log(membersListDOM);
 
 for (const memberDOM of membersListDOM) {
-        memberDOM.innerText = `----- ` + memberDOM.innerText;
-    }
+    memberDOM.innerText = '--- ' + memberDOM.innerText;
+}
 
-// Failas: header.js
-// - jis iskvieciamas kiekvienam puslapyje
-// - jame yra funkcija Headers()
-// - ji sugenuoroja normalu headeri
+/*
+failas: header.js
+- jis iskvieciamas kiekviename puslapyje
+- jame yra funkcija header()
+- ji sugeneruoja normalu headeri
 
-{/* 
-<header>
-    <img>
+```
+    <header>
+        <img>
         <nav>
-            <a></a>
-            <a></a>
-            <a></a>
+            <a Home>
+            <a About>
+            <a Services>
         </nav>
-    </img>
-</header> */}
-
-// - istatome i HTML ir isitikiname, jog galime naviguoti po projekto puslapius
+    </header>
+```
+- isstatome i HTML ir isitikiname, jog galime naviguoti po projekto puslapius
+*/

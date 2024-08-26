@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.header > .logo {
+  height: 2rem;
+}
+.header > .nav {
+  display: flex;
+  gap: 1rem;
+}
+.header .link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #36f;
+}
+.header .link:hover {
+  color: #f00;
+}
+.header .link.active {
+  text-decoration: underline;
+}
