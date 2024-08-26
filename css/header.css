@@ -1,13 +1,17 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  background-color: #f3f3f3;
 }
 .header > .logo {
-  height: 6rem;
+  height: 5rem;
 }
 .header > .nav {
   display: flex;
@@ -16,11 +20,13 @@
 .header .link {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #36f;
+  color: #444;
+  font-weight: 600;
 }
 .header .link:hover {
-  color: #f00;
+  color: #000;
 }
 .header .link.active {
-  text-decoration: underline;
+border-bottom: #444 2px solid;
+
 }
