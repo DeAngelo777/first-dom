@@ -1,4 +1,4 @@
-export function header(currentHref) {
+export function header2(currentHref) {
     const navData = [
         {
             href: '',
@@ -41,7 +41,7 @@ export function header(currentHref) {
     document.body.insertAdjacentHTML('afterbegin', headerHTML);
 }
 
-export function header2(currentHref) {
+export function header(currentHref) {
     const data = [
         { href: '', text: 'Pagrindinis' },
         { href: 'services', text: 'Paslaugos' },
@@ -57,7 +57,7 @@ export function header2(currentHref) {
     }
 
     const HTML = `<header class="header">
-            <img class="logo" src="../logo.png" alt="logo">
+            <img class="logo" src="images/logo.png" alt="logo">
             <nav class="nav">${linkHTML.join('')}</nav>
         </header>`;
 
