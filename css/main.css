@@ -1,3 +1,5 @@
+
+
 body,
 body * {
   margin: 0;
@@ -27,3 +29,30 @@ li {
 .member {
   font-size: 1.3rem;
 }
+
+.py-1 {
+  padding: 1rem;
+}
+
+.py-2 {
+  padding: 2rem;
+}
+
+.py-3 {
+  padding: 3rem;
+}
+
+.py-4 {
+  padding: 4rem;
+}
+
+.py-5 {
+  padding: 5rem;
+}
+
+.py-6 {
+  padding: 1rem;
+}
+
+
+

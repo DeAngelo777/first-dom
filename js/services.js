@@ -19,4 +19,4 @@ if (sectionListDOM.length === 0) {
 }
 
 const emptySectionDOM = sectionListDOM[1];
-emptySectionDOM.innerHTML = '<div style="color: green; font-size: 30px;">Labas rytas, Lietuva!</div>';
+emptySectionDOM.innerHTML = '<div style="color: black; font-size: 30px;">Labas rytas, Lietuva!</div>';
