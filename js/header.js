@@ -46,6 +46,8 @@ export function header(currentHref) {
         { href: '', text: 'Pagrindinis' },
         { href: 'services', text: 'Paslaugos' },
         { href: 'team', text: 'Komanda' },
+        { href: 'basketball', text: 'Krepšinis' },
+
     ];
 
     const linkHTML = [];
@@ -57,7 +59,7 @@ export function header(currentHref) {
     }
 
     const HTML = `<header class="header">
-            <img class="logo" src="images/logo.png" alt="logo">
+            <img class="logo" src="../images/logo.png" alt="logo">
             <nav class="nav">${linkHTML.join('')}</nav>
         </header>`;
 
