@@ -1,0 +1,87 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+.form > .form-title {
+    font-weight: bold;
+}
+
+.form > .form-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.form .form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.form-label {
+    color: #777;
+    visibility: hidden;
+}
+
+.form input {
+    width: 6rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.form button {
+    width: 6rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.form .note {
+    color: #999;
+    font-style: italic;
+}
+body{
+    background-color: #f3f3f3;
+}
+.world {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    position: relative;
+    background-color: antiquewhite;
+    height: calc(100vh - 280px);
+    width: 100%;
+
+}
+.world > .row {
+    display: flex;
+}
+
+
+.world > .row > .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ccc;
+
+}
+
+img {
+  width: 48px;
+  height: 48px;
+  padding: 4px;
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+button {
+    border: 1px solid #777;
+}

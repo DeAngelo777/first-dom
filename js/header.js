@@ -47,6 +47,8 @@ export function header(currentHref) {
         { href: 'services', text: 'Paslaugos' },
         { href: 'team', text: 'Komanda' },
         { href: 'basketball', text: 'Krepšinis' },
+        { href: 'snake', text: 'Gyvatele' },
+
 
     ];
 
