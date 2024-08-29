@@ -1,19 +1,19 @@
 export function header2(currentHref) {
     const navData = [
         {
-            href: '',
+            href: 'first-dom',
             text: 'Pagrindinis',
         },
         {
-            href: 'services',
+            href: 'first-dom/services',
             text: 'Paslaugos',
         },
         {
-            href: 'team',
+            href: 'first-dom/team',
             text: 'Komanda',
         },
         {
-            href: 'basketball',
+            href: 'first-dom/basketball',
             text: 'Krepšinis',
         },
     ];
@@ -29,7 +29,7 @@ export function header2(currentHref) {
             classes = 'link';
         }
 
-        navHTML += `<a class="${classes}" href="/first-dom/${link.href}">${link.text}</a>`;
+        navHTML += `<a class="${classes}" href="/${link.href}">${link.text}</a>`;
     }
 
     const headerHTML = `
