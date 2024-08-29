@@ -1,7 +1,7 @@
 import { capitalize } from "./capitalize.js";
 import { header } from "./header.js";
 
-header('first-dom/');
+header('first-dom');
 
 // https://jsdoc.app/
 
