@@ -25,8 +25,8 @@ const world = {
 
 function renderWorld() {
     worldDOM.innerHTML = `<div class="row">${'<div class="cell"></div>'.repeat(world.width)}</div>`.repeat(world.height)
-        + '<img class="chicken" style="top: 96px; left: 96px;" src="./chicken.png" alt="Chicken">'
-        + '<img class="snake" style="top: 0px; left: 0px;" src="./snake-round.png" alt="Snake">';
+        + '<img class="chicken" style="top: 96px; left: 96px;" src="./rabbit.png" alt="Chicken">'
+        + '<img class="snake" style="top: 0px; left: 0px;" src="./dog.png" alt="Snake">';
 
     snakeDOM = document.querySelector('.snake');
     chickenDOM = document.querySelector('.chicken');

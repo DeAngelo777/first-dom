@@ -4,16 +4,32 @@ body,
 body * {
   margin: 0;
   padding: 0;
-  vertical-align: top;
   box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+  
 }
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a{
+  color: #3F72AF;
+}
+
+.section-title {
+  color: white;
+
+}
 main {
-  padding: 2rem;
+  margin-top: 350px;
+  /* padding: 20px; */
+}
+
+p {
+  color: #fff;
 }
 
 footer {
@@ -23,7 +39,7 @@ footer {
 }
 
 li {
-  color: #f00;
+  color: #444;
 }
 
 .member {
@@ -55,4 +71,32 @@ li {
 }
 
 
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  /* filter: contrast(100%) brightness(100%); */
+
+}
+
+main {
+  position: relative;
+  }
 

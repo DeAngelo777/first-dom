@@ -2,12 +2,13 @@ import { header } from './header.js';
 header('basketball');
 
 const calcSectionDOM = document.getElementById('calc');
-const minusDOM = calcSectionDOM.querySelector('button');
-const plusDOM = calcSectionDOM.querySelector('button:last-child');
+const minusDOM = calcSectionDOM.querySelector('.minus');
+const plusDOM = calcSectionDOM.querySelector('.plus');
 const numberDOM = calcSectionDOM.querySelector('.number');
 
 let count = 0;
 let countSveciai = 0;
+let countNamai = 0;
 
 
 function up() {
@@ -28,15 +29,15 @@ const namaiSectionDOM = document.getElementById('leaderboard');
 
 
 function addOne() {
-    namaiSumaDOM.textContent = ++count;
+    namaiSumaDOM.textContent = ++countNamai;
 }
 
 function addTwo() {
-    namaiSumaDOM.textContent = count = count +2;
+    namaiSumaDOM.textContent = countNamai = countNamai +2;
 }
 
 function addThree() {
-    namaiSumaDOM.textContent = count = count +3;
+    namaiSumaDOM.textContent = countNamai = countNamai +3;
 }
 
 function addOneG() {
@@ -53,9 +54,9 @@ function addThreeG() {
 
 
 
-const addDOM = namaiSectionDOM.querySelector('button:first-child');
-const addTwoDOM = namaiSectionDOM.querySelector('button:nth-child(2)');
-const addThreeDOM = namaiSectionDOM.querySelector('button:last-child');
+const addDOM = namaiSectionDOM.querySelector('.plusvienas');
+const addTwoDOM = namaiSectionDOM.querySelector('.plusdu');
+const addThreeDOM = namaiSectionDOM.querySelector('.plustrys');
 
 const namaiSumaDOM = namaiSectionDOM.querySelector('.sveciai');
 const sveciaiSumaDOM = namaiSectionDOM.querySelector('.namai');

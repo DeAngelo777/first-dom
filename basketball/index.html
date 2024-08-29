@@ -8,24 +8,30 @@
     <title>Krepšinio pasaulyje</title>
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../css/basketball.css" />
     <link rel="stylesheet" href="../css/output.css" />
+    <link rel="stylesheet" href="../css/basketball.css" />
   </head>
 
   <body>
     <main>
-      <section class="calc" id="calc">
-        <button>-</button>
-        <div class="number">0</div>
-        <button>+</button>
+      <section class="leaderboard calc flex-col" id="calc">
+        <div class="">
+          <p class="text-4xl font-bold">Skaičiaus didintuvas</p>
+        </div>
+        <div class="calc flex-row" id="calc">
+          <button class="minus">-</button>
+          <div class="number">0</div>
+          <button class="plus">+</button>
+          <br />
+        </div>
       </section>
       <br />
       <div class="py-3"></div>
-      <section class="leaderboard" id="leaderboard">
-        <h1 class="text-4xl font-bold">Who will win?</h1>
+      <section class="leaderboard text-center" id="leaderboard">
+        <h1 class="text-4xl font-bold">Kas laimės krepšinį?</h1>
         <div class="homeGuestsContainer flex gap-2">
-          <div class="text-3xl bg-black text-blue-500">Home</div>
-          <div class="text-3xl bg-black text-red-500">Guests</div>
+          <div class="text-3xl">Home</div>
+          <div class="text-3xl">Guests</div>
         </div>
         <div class="leaderboard3 flex gap-12">
           <div class="sveciai">0</div>
@@ -34,9 +40,9 @@
         </div>
         <div class="taskuContainer flex gap-16">
           <div class="flex flex-col">
-            <button>+1</button>
-            <button>+2</button>
-            <button>+3</button>
+            <button class="plusvienas">+1</button>
+            <button class="plusdu">+2</button>
+            <button class="plustrys">+3</button>
           </div>
 
           <div class="flex flex-col">
@@ -45,6 +51,7 @@
             <button class="guests">+3</button>
           </div>
         </div>
+        <p class="">Paspauskite norimą suma, kad pridėtumet taškus</p>
       </section>
     </main>
 

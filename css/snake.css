@@ -1,23 +1,34 @@
 
-.form {
+form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     padding-bottom: 2rem;
     border-bottom: 0.1rem solid #ccc;
+    align-items: center;
 }
 
-.form > .form-title {
+main{
+    margin-top: 50px;
+}
+
+p{
+    color: #000;
+}
+
+form > .form-title {
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
-.form > .form-content {
+.form-content {
     display: flex;
+    flex-direction: row;
     gap: 1.5rem;
     align-items: center;
 }
 
-.form .form-element {
+.form-element {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -28,21 +39,25 @@
     visibility: hidden;
 }
 
-.form input {
+.form-element input {
+    width: 3rem;
+    padding: 0.1rem;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+form button {
     width: 6rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     font-size: 1.2rem;
 }
 
-.form button {
-    width: 6rem;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-}
-
-.form .note {
+form .note {
     color: #999;
     font-style: italic;
+    font-size: 0.9rem;
 }
 body{
     background-color: #f3f3f3;
@@ -52,7 +67,7 @@ body{
     flex-direction: column;
     margin-top: 2rem;
     position: relative;
-    background-color: antiquewhite;
+    background-color: #686D76;
     height: calc(100vh - 280px);
     width: 100%;
 
@@ -68,7 +83,7 @@ body{
     justify-content: center;
     width: 48px;
     height: 48px;
-    border: 1px solid #ccc;
+    border: 1px solid  #777b83;
 
 }
 
@@ -83,5 +98,15 @@ body{
   left: 0;
 }
 button {
-    border: 1px solid #777;
+    border: 1px solid #000;
+}
+
+form p {
+    text-align: left;
+}
+
+.text-valdymas{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #999;
 }

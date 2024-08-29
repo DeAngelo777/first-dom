@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Krepšinio pasaulyje</title>
+    <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/output.css" />
     <link rel="stylesheet" href="../css/snake.css" />
@@ -14,28 +15,24 @@
   <body>
     <main>
       <form action="form">
-        <p class="form-title ">Gyvatėlės pasaulyje</p>
+        <p class="form-title">Gyvatėlės pasaulyje (Okupuota Vilko)</p>
         <div class="form-content">
           <div class="form-element">
-            <label for="">Plotis</label>
-            <input type="number" value="10" min="1" max="20" step="1"/>
+            <input type="number" />
             <p class="note">max plotis 10</p>
           </div>
           <div class="form-element">X</div>
-            <input type="number" value="10" min="2" max="30" step="2"/>
-
+          <div class="form-element">
+            <input type="number" />
             <p class="note">max aukštis: 15</p>
           </div>
-          <div class="form-element"></div>
-          <button class="" type="submit">Perpiešti</button>
         </div>
-    </div>
+        <button class="" type="submit">Perpiešti</button>
+        <p class="text-valdymas">Valdymas: W A S D</p>
+      </div>
       </form>
 
-      <div class="world" id="world">
-      
-      </div>
-      
+      <div class="world" id="world"></div>
     </main>
     <footer id="main_footer">
       <p>Copyrights &copy; 2024</p>
