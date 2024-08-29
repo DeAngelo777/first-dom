@@ -34,7 +34,7 @@ export function header2(currentHref) {
 
     const headerHTML = `
         <header class="header">
-            <img class="logo" src="images/logo.png" alt="logo">
+            <img class="logo" src="/images/logo.png" alt="logo">
             <nav class="nav">${navHTML}</nav>
         </header>`;
 
