@@ -29,7 +29,7 @@ export function header2(currentHref) {
             classes = 'link';
         }
 
-        navHTML += `<a class="${classes}" href="../${link.href}">${link.text}</a>`;
+        navHTML += `<a class="${classes}" href="/${link.href}">${link.text}</a>`;
     }
 
     const headerHTML = `
