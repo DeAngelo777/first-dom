@@ -72,7 +72,7 @@ body{
 
 }
 
-img {
+.chicken, .snake {
   width: 48px;
   height: 48px;
   padding: 4px;
