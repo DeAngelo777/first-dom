@@ -1,5 +1,5 @@
 import { header } from './header.js';
-header('snake');
+header('first-dom/snake');
 
 const formDOM = document.forms[0];
 const [widthDOM, heightDOM] = formDOM.querySelectorAll('input');

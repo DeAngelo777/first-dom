@@ -1,5 +1,5 @@
 import { header } from "./header.js";
-header('team');
+header('first-dom/team');
 
 const teamSectionDOM = document.getElementById('team');
 const teamMembers = ['Jonas', 'Marytė', 'Petras', 'Ona', 'Arvyda', 'Aldona', 'Zose', 'Juozapas', 'Juozas', 'Antanas', 'Aloyzas', 'Martynas', 'Anastasija'];

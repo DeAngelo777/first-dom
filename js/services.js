@@ -1,5 +1,5 @@
 import { header } from "./header.js";
-header('services');
+header('first-dom/services');
 
 const sectionListDOM = document.getElementsByTagName('section');
 
