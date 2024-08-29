@@ -1,5 +1,5 @@
 import { header } from './header.js';
-header('basketball');
+header('first-dom/basketball');
 
 const calcSectionDOM = document.getElementById('calc');
 const minusDOM = calcSectionDOM.querySelector('.minus');
