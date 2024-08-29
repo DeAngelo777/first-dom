@@ -56,7 +56,7 @@ export function header(currentHref) {
 
     for (const { href, text } of data) {
         linkHTML.push(
-            `<a class="link ${currentHref === href ? 'active' : ''}" href="../${href}">${text}</a>`
+            `<a class="link ${currentHref === href ? 'active' : ''}" href="/${href}">${text}</a>`
         );
     }
 
