@@ -12,7 +12,7 @@ main{
     margin-top: 50px;
 }
 
-p{
+main p{
     color: #000;
 }
 
@@ -77,19 +77,20 @@ body{
 }
 
 
+
 .world > .row > .cell {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
+    width: 70px;
     height: 48px;
     border: 1px solid  #777b83;
 
 }
 
 .chicken, .snake {
-  width: 48px;
-  height: 48px;
+  width: 70px;
+  height: 70px;
   padding: 4px;
   object-fit: contain;
   object-position: center;
