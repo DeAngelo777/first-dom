@@ -43,11 +43,11 @@
 
 export function header(currentHref) {
     const data = [
-        { href: 'first-dom', text: 'Pagrindinis' },
-        { href: '/services', text: 'Paslaugos' },
-        { href: '/team', text: 'Komanda' },
-        { href: '/basketball', text: 'Krepšinis' },
-        { href: '/snake', text: 'Gyvatele' },
+        { href: '', text: 'Pagrindinis' },
+        { href: 'first-dom/services', text: 'Paslaugos' },
+        { href: 'first-dom/team', text: 'Komanda' },
+        { href: 'first-dom/basketball', text: 'Krepšinis' },
+        { href: 'first-dom/snake', text: 'Gyvatele' },
 
 
     ];
